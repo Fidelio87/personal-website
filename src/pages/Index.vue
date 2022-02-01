@@ -30,25 +30,6 @@ export default {
 }
 
 
-
-
-VANTA.NET({
-  el: "#background",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0x1f4d30,
-  backgroundColor: 0x617c84,
-  points: 7.00,
-  maxDistance: 21.00,
-  spacing: 18.00
-})
-
-
 </script>
 
 <style>
