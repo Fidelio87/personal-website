@@ -19,7 +19,7 @@
 </template>
 
 <script>
-  VANTA.NET('#background')
+  const effect = VANTA.NET('#background')
 </script>
 
 <script>
