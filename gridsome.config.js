@@ -6,5 +6,9 @@
 
 module.exports = {
   siteName: 'Weiss codes',
-  plugins: []
+  siteDescription: 'The description',
+
+  plugins: [],
+  favicon: './src/favicon.png',
+  touchicon: './src/apple-touch-icon.png'
 }

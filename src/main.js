@@ -7,9 +7,13 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
-
+/*
   head.link.push({ rel: 'apple-touch-icon', href: '/apple-touch-icon.png'}),
-  head.link.push({ rel: 'icon', href: '/favicon.ico'}),
+  head.link.push({ rel: 'icon', href: '/favicon.ico'}),*/
+
+  
+
+
   head.script.push({
     src: 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js',
     body: true  
